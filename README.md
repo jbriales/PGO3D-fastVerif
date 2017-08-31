@@ -1,8 +1,7 @@
 # PGO3D-fastVerif
-Demonstrate the use of the verification techniques presented in [Briales16iros].
+Demonstrate the use of the verification techniques presented in "Fast Global Optimality Verification in 3D SLAM" at IROS16.
 
-### IN PROGRESS ###
-The code necessary to reproduce the experiments in the paper will be uploaded here as soon as possible.
+The implementation of this approach has been included into the more comprehensive PGO pipeline [Cartan-Sync](http://bitbucket.org/jesusbriales/cartan-sync). Check the methods `compute_Lambda` and `min_eig_penalizedMat` in the file `MATLAB/SE-Sync/lib/@SE_Sync_Cartan/SE_Sync_Cartan.m` of the [Cartan-Sync repository](http://bitbucket.org/jesusbriales/cartan-sync).
 
 ### CITING THIS WORK ###
 
